@@ -3,7 +3,9 @@ library(ggplot2)
 setwd("C:/Users/Jamie Walker/OneDrive - Nexus365/biology/Uni/3rd Year/Computer Classes HT 22/git-usage")
 # Change to your working directory
 
-sods_data <- read.csv("stackoverflow-git-data.csv")
+sods_data <- read.csv("data/stackoverflow-git-data.csv")
+# when you are importing something from a folder that is within your working directory, 
+# you need to specify the folder that the file is in
 
 g <- ggplot(
   data = sods_data,
