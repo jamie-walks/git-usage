@@ -1,5 +1,8 @@
 library(ggplot2)
 
+setwd("C:/Users/Jamie Walker/OneDrive - Nexus365/biology/Uni/3rd Year/Computer Classes HT 22/git-usage")
+# Change to your working directory
+
 sods_data <- read.csv("stackoverflow-git-data.csv")
 
 g <- ggplot(
